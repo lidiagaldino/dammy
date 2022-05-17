@@ -1,0 +1,61 @@
+header{
+    position: fixed;
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    z-index: 999;   
+}
+.itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.links-cont{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: Baskerville;
+    gap: 50px;
+    font-size: 1.875rem;
+}
+.links-cont a{
+    transition: all ease-in-out .3s;
+}
+.links-cont a:hover{
+    color: #A52D2D;
+}
+
+@media(max-width:768px){
+    header{
+        background-color: white;
+        height: 140px;
+    }
+    .img-logo{
+        width: 150px;
+        padding-right: 15px;
+    }
+    .links-cont{
+        background-color: white;
+        color: white;
+        height: 990px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        font-size: 2.5rem;
+        transform: translate(100%);
+        transition: all 0.9s;
+    }
+    .menu-burguer-container.show~ .links-cont{
+        transform: translate(0);
+    }
+}

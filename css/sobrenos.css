@@ -1,0 +1,204 @@
+
+.sobre-cont{
+gap: 40px;
+}
+
+.text-dammy{
+    display: flex;
+    width: 1173.9px;
+    height: 286.29px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.438rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.retangulo-1{
+    display: flex;
+    float: left;
+    width: 1044px;
+    height: 224px;
+    shape-outside: inset(20px 5px 30px 10px);
+    background-color: #4A0B07;
+    border-radius: 10px;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-planta{
+    display: flex;
+    width: 109px;
+    height: 139px;
+    align-items: center;
+    justify-content: center;
+    shape-outside: url("../img/pata.png");
+    shape-outside: url("../img/planta.png");
+    shape-outside: url("../img/maos.png");
+
+}
+
+.icones-pata{
+    display: flex;
+    width: 100px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    shape-outside: url("../img/pata.png");
+    shape-outside: url("../img/planta.png");
+    shape-outside: url("../img/maos.png");
+
+}
+
+.icones-maos{
+    display: flex;
+    width: 137px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    shape-outside: url("../img/pata.png");
+    shape-outside: url("../img/planta.png");
+    shape-outside: url("../img/maos.png");
+
+}
+
+.saiba-mais{
+    display: flex;
+    width: 357px;
+    height: 55px;
+    background: #DFA9A9;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-saiba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00000099;
+    padding-left: 43px;
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+@media (max-width: 768px){
+
+    .retangulo-1{
+        display: flex;
+        float: left;
+        width: 297px;
+        height: 100px;
+        shape-outside: inset(20px 5px 30px 10px);
+        background-color: #4A0B07;
+        border-radius: 10px;
+        gap: 18px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .circulo{
+        display: flex;
+        width: 80px;
+        height: 81px;
+        shape-outside: circle();
+        clip-path: circle();
+        background: white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icones-planta{
+        display: flex;
+        width: 41px;
+        height: 54px;
+        align-items: center;
+        justify-content: center;
+        shape-outside: url("../img/pata.png");
+        shape-outside: url("../img/planta.png");
+        shape-outside: url("../img/maos.png");
+    
+    }
+    
+    .icones-pata{
+        display: flex;
+        width: 47px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        shape-outside: url("../img/pata.png");
+        shape-outside: url("../img/planta.png");
+        shape-outside: url("../img/maos.png");
+    
+    }
+    
+    .icones-maos{
+        display: flex;
+        width: 41px;
+        height: 36px;
+        align-items: center;
+        justify-content: center;
+        shape-outside: url("../img/pata.png");
+        shape-outside: url("../img/planta.png");
+        shape-outside: url("../img/maos.png");
+    
+    }
+
+    .saiba-mais{
+        display: flex;
+        width: 280px;
+        height: 40px;
+        background: #DFA9A9;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .text-saiba{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 25.45px;
+        font-family: 'Baskervville';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 0.825rem;
+        padding-right: 110px;
+        padding-left: 90px;
+        color: rgba(0, 0, 0, 0.6);
+        
+    }
+
+    .text-dammy{
+        display: flex;
+        width: 298px;
+        height: 235px;
+        font-family: 'Baskervville';
+        font-style: normal;
+        font-weight: 10;
+        font-size: 0.875rem;
+        line-height: 18px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+        
+    }
+
+}   

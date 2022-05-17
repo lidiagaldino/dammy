@@ -1,0 +1,40 @@
+button{
+    height: 96px;
+    width: 464px;
+    margin: 44px;
+    background-color: #9A0808;
+    border: none;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.venha{
+    color: white;
+    font-family: Baskerville;
+    font-size: 1.875rem;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: ease-in-out .7s;
+    background-color: #c50f0f;
+}
+.home-cont{
+    display: flex;
+    align-items: center;
+}
+.makeup{
+    align-items: flex-end;
+    width: 100vw;
+    height: 600px;
+}
+
+@media(max-width:768px){
+    .makeup{
+        height: 330px;
+    }
+    .venha{
+        font-size: 1.5rem;
+    }
+    button{
+        width: 300px;
+        margin: 70px;
+    }
+}

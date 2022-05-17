@@ -1,0 +1,86 @@
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px; 
+    flex-grow: 2;
+    width: 50%;
+    gap: 40px;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.icons-beneficios{
+    display: flex;
+    font-size: 3em;
+    height: 13%;
+    gap: 30px;
+    width: 40%;
+}
+
+#creche, #auxilio-farm, #val, #val-ref, #convmed, #convodont, #valtrans, #escola{
+    margin: 10px;
+}
+
+.texto{
+    font-size: 2rem;
+}
+
+.icones-hover{
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-hover{
+    transition: all ease-in-out .5s;
+}
+.icones-hover:hover{
+   background-color: #980808;
+   width: 100%;
+   color: white;
+   border-radius: 10%;
+}
+
+@media(max-width:1590px){
+    .icons{
+        margin-top: 20px;
+    }
+    .icons-beneficios{
+        font-size: 2.2rem;
+    }
+    .texto{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 768px){
+    .icons{
+        width: 100%;
+        gap: 35px;
+    }
+    .icons-beneficios{
+        gap: 10px;
+        font-size: 1.8rem;
+        height: 8%;
+    }
+    .icones-hover{
+        pointer-events: none;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:460px){
+    .icons{
+        gap: 20px;
+    }
+    .icons-beneficios{
+        width: 48%;
+    }
+    #titulo-cultura{
+        font-size: 1rem;
+    }
+}

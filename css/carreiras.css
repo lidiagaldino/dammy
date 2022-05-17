@@ -1,0 +1,191 @@
+.options{
+    margin-top: 150px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    transform: translate(0);
+    transition: transform .8s;
+
+}
+.options.hide{
+    transform: translate(200%);
+    height: 0;
+}
+.caixa, .caixa-dois, .caixa-tres, .caixa-quatro{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 1200px;
+    height: 0px;
+    transform: translate(200%);
+    opacity: 0;
+    transition: transform 1s;
+}
+<<<<<<< HEAD
+.caixa.show, .caixa-dois.show{
+=======
+.caixa.show, .caixa-dois.show, .caixa-tres.show, .caixa-quatro.show{
+    opacity: 1;
+>>>>>>> 96ea6719a79d51aaa79b1f7c8119080399788442
+    transform: translate(0);
+    height: 394px;
+}
+.icon-assistente {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    color: black;
+    transition: all 1s;
+}
+.icon-assistente:hover{   
+    cursor: pointer; 
+}
+.caixa-assistente{
+    width: 1200px;
+    background: linear-gradient(264.03deg, #C00505 -0.89%, #941D1D 48.67%, #601717 99.28%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caixa-assistente h3{
+    padding-top: 20px;
+    font-family: Baskervville;
+    font-size: 1.875rem;
+    color: white;
+}
+.caixa-assistente ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 60px;
+}
+.caixa-assistente ul li{
+    width: 400px;
+    color: white;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 470px;
+    height: 230px;
+    transition: all ease-in-out .5s;
+}
+.container:hover{
+    box-shadow: 3px 3px #D99D9D;
+    transform: translateX(-30px);
+    cursor: pointer;
+}
+.text-op{
+    font-family: Baskervville;
+    font-size: 1.5rem;
+}
+.text{
+    position: relative;
+    font-family: Baskervville;
+    font-size: 1.5rem;
+}
+.text:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(100, 12, 12);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+.text:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.arrow{
+    font-size: 2rem;
+}
+#ass, #aux, #ana, #jov{
+    font-size: 8.875rem;
+}
+
+@media(max-width: 1280px){
+    .container{
+        height: 120px;
+        width: 320px;
+    }
+    #ass, #aux, #ana, #jov{
+        font-size: 3rem;
+    }
+    .text-op{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 920px){
+    .container{
+        margin-left: 60px;
+        flex-direction: row;
+        height: 50px;
+        width: 380px;
+        gap: 30px;
+    }
+    text{
+        font-size: 1rem;
+        justify-content: center;
+    }
+    #ass, #aux, #ana, #jov{
+        font-size: 3.125rem;
+    }
+    .arrow{
+        display: none;
+    }
+    .caixa, .caixa-dois, .caixa-tres, .caixa-quatro{
+        width: 350px;
+        transform: translate(200%);
+        opacity: 0;
+        transition: transform 1s;
+    }
+    .icon-assistente{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .caixa-assistente{
+        width: 350px;
+    }
+    .caixa-assistente h3{
+        padding-top: 10px;
+        font-family: Baskervville;
+        font-size: 1rem;
+        color: white;
+    }
+    .caixa-assistente ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        gap: 20px;
+        margin: 20px;
+    }
+    .caixa-assistente ul li{
+        width: 100px;
+        color: white;
+        font-family: Baskervville;
+        font-size: .8rem;
+    }
+}
