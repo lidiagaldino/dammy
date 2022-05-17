@@ -48,7 +48,7 @@ header{
     .links-cont{
         background-color: white;
         color: white;
-        height: 990px;
+        height: 100vh;
         position: absolute;
         left: 0;
         top: 0;
@@ -57,7 +57,7 @@ header{
         flex-direction: column;
         justify-content: center;
         gap: 40px;
-        font-size: 2.5rem;
+        font-size: 2rem;
         transform: translate(100%);
         transition: all 0.9s;
     }

@@ -42,6 +42,9 @@
     .noticias-text{
         font-size: 1.5rem;
     }
+    .retangulo{
+        display: none;
+    }
 }
 @media(max-width: 1530px){
     .news-image{

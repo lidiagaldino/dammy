@@ -44,3 +44,9 @@ button:hover{
         height: 70px;
     }
 }
+
+@media(max-width:380px){
+    button{
+        display: none;
+    }
+}
