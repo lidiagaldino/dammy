@@ -14,7 +14,7 @@ section{
     flex-direction: column;
     align-items: center;
 }
-.carreiras-cont, .newsletter-cont, .cultura-cont, .sobre-cont{
+.carreiras-cont, .newsletter-cont, .cultura-cont, .sobre-cont, .depoimentos-cont{
     background-color: white;
     padding-top: 220px;
     display: flex;
@@ -48,5 +48,8 @@ h2{
     .tit-sobre{
         font-size: 1.125rem;
         width: 405px;
+    }
+    .home-cont{
+        padding-top: 80px;
     }
 }

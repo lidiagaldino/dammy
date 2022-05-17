@@ -1,7 +1,7 @@
 button{
-    height: 96px;
-    width: 464px;
-    margin: 44px;
+    height: 90px;
+    width: 450px;
+    margin: 40px;
     background-color: #9A0808;
     border: none;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
@@ -23,18 +23,24 @@ button:hover{
 .makeup{
     align-items: flex-end;
     width: 100vw;
-    height: 600px;
+    height: 650px;
 }
-
+.makeup-mobile{
+    display: none;
+}
 @media(max-width:768px){
     .makeup{
-        height: 330px;
+        display: none;
+    }
+    .makeup-mobile{
+        display: flex;
+        width: 100vw;
     }
     .venha{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     button{
         width: 300px;
-        margin: 70px;
+        height: 70px;
     }
 }

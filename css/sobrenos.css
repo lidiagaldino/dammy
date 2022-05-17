@@ -91,7 +91,7 @@ gap: 40px;
     align-items: center;
     justify-content: center;
     color: #00000099;
-    padding-left: 43px;
+    padding-left: 10px;
     font-family: 'Baskervville';
     font-style: normal;
     font-weight: 400;
@@ -182,7 +182,7 @@ gap: 40px;
         font-weight: 100;
         font-size: 0.825rem;
         padding-right: 110px;
-        padding-left: 90px;
+        padding-left: 105px;
         color: rgba(0, 0, 0, 0.6);
         
     }

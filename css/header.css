@@ -30,10 +30,16 @@ header{
     color: #A52D2D;
 }
 
+@media(max-width:1500px){
+    .links-cont{
+        font-size: 1.5rem;
+    }
+}
+
 @media(max-width:768px){
     header{
         background-color: white;
-        height: 140px;
+        height: 80px;
     }
     .img-logo{
         width: 150px;

@@ -24,12 +24,8 @@
     opacity: 0;
     transition: transform 1s;
 }
-<<<<<<< HEAD
-.caixa.show, .caixa-dois.show{
-=======
 .caixa.show, .caixa-dois.show, .caixa-tres.show, .caixa-quatro.show{
     opacity: 1;
->>>>>>> 96ea6719a79d51aaa79b1f7c8119080399788442
     transform: translate(0);
     height: 394px;
 }
@@ -183,7 +179,7 @@
         margin: 20px;
     }
     .caixa-assistente ul li{
-        width: 100px;
+        width: 200px;
         color: white;
         font-family: Baskervville;
         font-size: .8rem;
